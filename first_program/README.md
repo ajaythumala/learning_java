@@ -15,3 +15,8 @@ class HelloWorld
     - The static keyword indicates that the method is called using the class name, not using an instance of the class
     - The void keyword indicates that the method does not return anything
     - String[] args is string array arguments - the command line input is passed in here when the method is called
+
+``` java
+System.out.println("Hello" + "World")
+```
+'+' operator will concatenate the strings
