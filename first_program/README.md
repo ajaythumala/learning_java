@@ -1,4 +1,13 @@
 # Notes:
+``` java
+class HelloWorld
+{
+  public static void main(String[] args)
+  {
+    System.out.println("Hello World :)");
+  }
+}
+```
 
 1. S in String[args] and System.out.println is uppercase
 1. "public static void main(String[] args)"
