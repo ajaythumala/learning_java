@@ -41,12 +41,37 @@ class Array
         System.out.print(array[i] + " ");
     
     // calculating average
-    int sum = 0;
+    float sum = 0;
     for(int i = 0; i < array.length; i++)
         sum += array[i];
         
     System.out.println("");
-    System.out.print(sum / array.length);
+    System.out.print("average = " + sum / array.length);
+  }
+}
+```
+### Program to create and initialize a 3D array
+``` java
+class ThreeDArray
+{
+  public static void main(String[] args)
+  {
+    int array [][][] = new int [3][4][5];
+    int sum = 0;
+    for(int i = 0; i < 3; i++)
+    {
+        for(int j = 0; j < 4; j++)
+        {
+            for(int k = 0; k < 5; k++)
+            {
+                array[i][j][k] = sum;
+                sum += 1;
+                System.out.print(array[i][j][k] + " ");
+            }
+            System.out.println("");
+        }
+        System.out.println("");
+    }
   }
 }
 ```
