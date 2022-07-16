@@ -5,16 +5,16 @@ class Main
 {
     public static void main(String[] args)
     {
-        Generic object = new Generic();
-        object.generic_print("generic hello world ^.^");
+        Generic.generic_print("generic hello world ^.^");
     }
 }
 
 class Generic
 {
-    <T> void generic_print(T input)
+    static <T> void generic_print(T input)
     {
-        System.out.println(input);
+        System.out.println(input.getClass().getName());
     } 
 }
 ```
+
